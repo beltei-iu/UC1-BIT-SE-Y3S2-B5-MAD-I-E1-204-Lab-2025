@@ -1,0 +1,4 @@
+
+name  = "Python"
+
+print(name)
