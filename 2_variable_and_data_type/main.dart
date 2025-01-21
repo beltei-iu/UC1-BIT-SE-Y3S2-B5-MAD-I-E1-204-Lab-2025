@@ -70,11 +70,21 @@ void main(){
   // String message = stdin.readLineSync()!;
   // print(message);
 
+    String? message;
+    print(message ?? "This is default meesage.");
 
-  int num = 10; // Implicit
-  print(num);
-  print(num.runtimeType);
-  double num2 = num.toDouble(); // Explicit
-  print(num2);
-  print(num2.runtimeType);
+
+  // Type Conversion
+  // int num = 10; // Implicit
+  // print(num);
+  // print(num.runtimeType);
+  // double num2 = num.toDouble(); // Explicit
+  // print(num2);
+  // print(num2.runtimeType);
+
+
+
+
+
+
 }
