@@ -10,17 +10,17 @@ void main(){
   // name = "IT Faculty";
   // print(name);
 
-  // Final keyword
+  // // Final keyword
   // final pi = 3.14;
-  // final pi; // require initailize value
-  //print(pi);
+  // // final pi; // require initailize value
+  // print(pi);
   // print(pi.runtimeType); 
-  // pi = 1.2;
+  // // pi = 1.2;
 
   // const keyword 
-  //const dayOfWeek =  ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+  // const dayOfWeek =  ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
   // const dayOfWeek; // required innitailize value when declaration
-  //print(dayOfWeek);
+  // print(dayOfWeek);
   // dayOfWeek = []; // could not resign
 
   // String? message;
