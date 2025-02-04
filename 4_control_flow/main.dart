@@ -1,6 +1,7 @@
 import 'dart:io';
 void main(){
 
+  // stdout.write("Please input your score :");
   // String input = stdin.readLineSync()!;
   // int score = int.parse(input);
   // if(score > 50){
@@ -17,14 +18,14 @@ void main(){
   // }
 
   // if else statement
-  // if( 2%2 == 0){
+  // if(2%2 == 0){
   //     print("Remaing value : 0");
   // }else{
   //   print("Remaing value");
   // }
 
   // Swtich Statement
-  // String day = "Tuesday";
+  // String day = "Wednesday";
   // switch(day){
   //   case "Monday":
   //   print("Today is monday");
@@ -40,11 +41,12 @@ void main(){
 
 
   // For Loop
-  // for(int i = 0; i < 5; i++){
+
+  // for(int i = 1; i <= 5; i++){
   //   print("Value i : $i"); // Execute
   // }
-
-  // for(int i = 5; i > 0; i--){
+  // print("==========");
+  // for(int i = 5; i >= 1; i--){
   //   print("Value i : $i"); // Execute
   // }
 
@@ -70,22 +72,29 @@ void main(){
   // }while(i < 5);
 
   // Break 
-  for(int i=0; i < 10 ; i++){
-    if(i == 5){ // break statement , code below no execute 
-      break;
-    }
-    print("i : $i");
-  }
+  // for(int i = 0; i < 10 ; i++){
+  //   if(i == 5){ // break statement , code below no execute 
+  //     break;
+  //   }
+  //   print("i : $i"); 
+  //   //option1 :  0,1,2,3,4,5,6,7,9
+  //   //option2 :  0,1,2,3,4
+  //   //option3 :  0,1,2,3,4,5
+  // }
 
   print("=================");
 
   // Continue
-  for(int i = 0; i < 10; i++){
-    if(i == 5){ // skip next line , it's move to loop 
-      continue;
-    }
-    print("i : $i");
-  }
+  // for(int i = 0; i < 10; i++){
+  //   if(i == 5 || i == 8){ // skip next line , it's move to loop 
+  //     continue;
+  //   }
+  //   print("i : $i");
+
+  //   // option1 : 0,1,2,3,4,6,7,9
+  //   // option2 : 
+
+  // }
 
 
 }

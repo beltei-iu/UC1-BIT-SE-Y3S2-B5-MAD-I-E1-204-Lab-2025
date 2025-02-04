@@ -42,10 +42,10 @@ void main(){
 
 
   // Assignment Operator
-  // double data = 1;
+  double data = 1;
   // print("Assign = : $data");
   // data +=1;
-  // // data = data + 1;
+  // //data = data + 1;
   // print("Add and Assign += : ${data}");
   
   // data -=1;
@@ -58,6 +58,6 @@ void main(){
   // print("Device and Assign /= ${data}");
 
   // Condition operator
-  bool isSingle = false;
-  print("Your Status : ${isSingle ? "Single" : "Married"}");
+  // bool isSingle = true;
+  // print("Your Status : ${isSingle ? "Single" : "Married"}");
 }
