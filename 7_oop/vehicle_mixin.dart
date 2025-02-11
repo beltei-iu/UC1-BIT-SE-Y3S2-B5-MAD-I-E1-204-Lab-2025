@@ -1,0 +1,6 @@
+
+mixin VehicleMixin {
+ 
+  String? model;
+
+}
